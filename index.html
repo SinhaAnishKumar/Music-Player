@@ -1,101 +1,102 @@
 <!DOCTYPE html>
 <html>
 
-   <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Tarana - Geet Wahi Par Naya Jamana</title>
-      <meta name="auther" content="Nihal Priyadarshi">
-      <meta name="email" content="nihalpriyadarshi1999@gmail.com">
-      <meta name="description" content="Listen to the soulful voice of various singers and enjoy your time with us.">    
-      <meta property="og:title" content="Tarana - Geet Wahi Par Naya Jamana">
-      <meta property="og:description" content="Listen to the soulful voice of various singers and enjoy your time with us.">
-      <meta name="og:phone_number" content="+910000000000" />
-      <meta name="og:country-name" content="India" />
-      <meta name="keywords" content="Nihal Priyadarshi">
-      <meta name="copyright" content="Nihal Priyadarshi">
-      <meta name="language" content="en">
-      <meta name="url" content="https://nihal-priyadarshi.github.io/Music-Player/">
-      <meta name="category" content="Music Player">
-      <meta name="coverage" content="Worldwide">
-      <meta name="rating" content="General">
-      <meta property="og:url" content="https://nihal-priyadarshi.github.io/Music-Player/">
-      <meta name="twitter:creator" content="@nihal089121999">
-      <meta itemprop="name" content="Nihal Priyadarshi">
-      <meta itemprop="description" content="Listen to the soulful voice of various singers and enjoy your time with us.">
-      
-      <!-- <meta property="og:image" itemprop="image" content="">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarana - Geet Wahi Par Naya Jamana</title>
+    <meta name="auther" content="Nihal Priyadarshi">
+    <meta name="email" content="nihalpriyadarshi1999@gmail.com">
+    <meta name="description" content="Listen to the soulful voice of various singers and enjoy your time with us.">
+    <meta property="og:title" content="Tarana - Geet Wahi Par Naya Jamana">
+    <meta property="og:description"
+        content="Listen to the soulful voice of various singers and enjoy your time with us.">
+    <meta name="og:phone_number" content="+910000000000" />
+    <meta name="og:country-name" content="India" />
+    <meta name="keywords" content="Nihal Priyadarshi">
+    <meta name="copyright" content="Nihal Priyadarshi">
+    <meta name="language" content="en">
+    <meta name="url" content="https://nihal-priyadarshi.github.io/Music-Player/">
+    <meta name="category" content="Music Player">
+    <meta name="coverage" content="Worldwide">
+    <meta name="rating" content="General">
+    <meta property="og:url" content="https://nihal-priyadarshi.github.io/Music-Player/">
+    <meta name="twitter:creator" content="@nihal089121999">
+    <meta itemprop="name" content="Nihal Priyadarshi">
+    <meta itemprop="description" content="Listen to the soulful voice of various singers and enjoy your time with us.">
+
+    <!-- <meta property="og:image" itemprop="image" content="">
       <meta name="twitter:card" content="Sonu Kumar Kushwaha">
       <meta name="twitter:site" content="Sonu Kumar Kushwaha">
       <meta name="twitter:title" content="website">
       <meta name="twitter:description" content="Sonu Kumar Kushwaha – A collection of everything that goes in my head"> -->
-      
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link rel="stylesheet" type="text/css" href="./style.css">
-   </head>
 
-   <body>
-      <div class="main" id="main">
-         <p id="logo"><i class="fa fa-music"></i>Tarana</p>
-         <!--- left part --->
-         <div class="left">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+    <div class="main" id="main">
+        <p id="logo"><i class="fa fa-music"></i>Tarana</p>
+        <!--- left part --->
+        <div class="left">
             <!--- song img --->
             <div class="image"><img id="track_image"></div>
             <div class="volume">
-               <p id="volume_show">40</p>
-               <i class="fa fa-volume-up" aria-hidden="true" id="volume_icon" title="Mute"></i>
-               <input type="range" min="0" max="100" value="40" onchange="volume_change()" id="volume">
+                <p id="volume_show">40</p>
+                <i class="fa fa-volume-up" aria-hidden="true" id="volume_icon" title="Mute"></i>
+                <input type="range" min="0" max="100" value="40" onchange="volume_change()" id="volume">
             </div>
-         </div>
-         <!--- right part --->
-         <div class="right">
+        </div>
+        <!--- right part --->
+        <div class="right">
             <div class="show_song_no">
-               <p id="present"></p>
-               <p> / </p>
-               <p id="total"></p>
+                <p id="present"></p>
+                <p> / </p>
+                <p id="total"></p>
             </div>
             <!--- song title & artist name --->
             <p id="title">title</p>
             <p id="artist">Artist name</p>
             <!--- middle part of right part--->
             <div class="middle">
-               <button id="shuffle" class="shuffle fa fa-random" title="Enable shuffle">
-               </button>
-               <button onclick="previous_song();" id="pre" class="right_blue" title="Previous"><i class="fa fa-step-backward"
-                     aria-hidden="true"></i>
-               </button>
-               <button id="play" class="right_pink" title="Play"><i class="fa fa-play" aria-hidden="true"></i>
-               </button>
-               <button onclick="next_song();" id="next" class="right_blue"><i class="fa fa-step-forward"
-                     aria-hidden="true" title="Next"></i>
-               </button>
-               <button id="repeat" class="repeat fa fa-repeat" title="Enable repeat">
-               </button>
+                <button id="shuffle" class="shuffle fa fa-random right_blue" title="Enable shuffle">
+                </button>
+                <button onclick="previous_song();" id="pre" class="right_blue" title="Previous"><i
+                        class="fa fa-step-backward" aria-hidden="true"></i>
+                </button>
+                <button id="play" class="right_pink play_button" title="Play"><i class="fa fa-play" aria-hidden="true"></i>
+                </button>
+                <button onclick="next_song();" id="next" class="right_blue"><i class="fa fa-step-forward"
+                        aria-hidden="true" title="Next"></i>
+                </button>
+                <button id="repeat" class="repeat fa fa-repeat right_blue" title="Enable repeat">
+                </button>
             </div>
             <!--- song duration part --->
             <div class="duration">
-               <p id="passed_duration">0 : 00</p>
-               <input type="range" min="0" max="100" value="0" id="duration_slider" onchange="change_duration();">
-               <p id="full_duration">0 : 00</p>
+                <p id="passed_duration">0 : 00</p>
+                <input type="range" min="0" max="100" value="0" id="duration_slider" onchange="change_duration();">
+                <p id="full_duration">0 : 00</p>
             </div>
-         </div>
-      </div>
-      <div class="documentation">
-         <button class="hide_show" id="hide_show"></button>
-      </div>
-      <div class="documentation_page" id="main_body_hide">
-         <p id="logo"><i class="fa fa-music"></i>Tarana</p>
-         <div class="documentation_body">
+        </div>
+    </div>
+    <div class="documentation">
+        <button class="hide_show" id="hide_show"></button>
+    </div>
+    <div class="documentation_page" id="main_body_hide">
+        <p id="logo"><i class="fa fa-music"></i>Tarana</p>
+        <div class="documentation_body">
             <h1>PLAYLIST</h1><br /><br />
             <h2>
-               <ol id="list">
-               </ol>
+                <ol id="list">
+                </ol>
             </h2>
-         </div>
-      </div>
+        </div>
+    </div>
 
-      <!--- Add javascript file --->
-      <script src="./main.js"></script>
-   </body>
+    <!--- Add javascript file --->
+    <script src="./main.js"></script>
+</body>
 </html>

@@ -5,7 +5,7 @@ let timer, link, All_song, max, index_no = 0;
 // Creating An Audio Element.
 let track = document.createElement('audio');
 
-fetch("https://nihal-priyadarshi.github.io/Tarana/db.json")
+fetch("https://nihal-priyadarshi.github.io/Music-Player/db.json")
      .then(function (response) {
           return response.json();
      })

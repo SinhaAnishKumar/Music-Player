@@ -78,11 +78,13 @@ volume_icon.onclick = function () {
           first = false;
           volume_icon.classList.add('fa-volume-off');
           volume_icon.classList.remove('fa-volume-up');
+          volume_icon.title = "Unmute";
      } else {
           reset_sound();
           first = true;
           volume_icon.classList.remove('fa-volume-off');
           volume_icon.classList.add('fa-volume-up');
+          volume_icon.title = "Mute";
      }
 }
 
@@ -112,6 +114,7 @@ function playsong() {
      track.play();
      first_click = false;
      play.innerHTML = '<i class="fa fa-pause" aria-hidden="true"></i>';
+     play.title = "Pause";
 }
 
 // Pause Song
@@ -119,6 +122,7 @@ function pausesong() {
      track.pause();
      first_click = true;
      play.innerHTML = '<i class="fa fa-play" aria-hidden="true"></i>';
+     play.title = "Play";
 }
 
 // Next Song
@@ -187,6 +191,7 @@ function previous_song() {
 
 // Change Volume
 function volume_change() {
+     volume_icon.title = "Mute";
      if (volume_icon.classList.contains('fa-volume-off')) {
           first = true;
           volume_icon.classList.add('fa-volume-up');
@@ -237,6 +242,7 @@ function range_slider() {
                repeat.innerHTML = `1`;
                repeat.classList.add('selected');
                repeat.classList.remove('repeat');
+               repeat.title = "Disable repeat";
                if (track.ended) {
                     // console.log(index_no);
                     track.src = All_song[index_no].path;
@@ -260,6 +266,7 @@ function range_slider() {
                repeat.classList.add('repeat');
                repeat.classList.remove('selected');
                select = true;
+               repeat.title = "Enable repeat";
           }
      }
 
@@ -272,6 +279,7 @@ function range_slider() {
                shuffle.classList.remove('shuffle');
                // console.log(shuffle.className);
                selected = false;
+               shuffle.title = "Disable shuffle";
 
                if (track.ended) {
 
@@ -297,6 +305,7 @@ function range_slider() {
                shuffle.classList.remove('selected');
                shuffle.classList.add('shuffle');
                selected = true;
+               shuffle.title = "Enable shuffle";
           }
      }
 

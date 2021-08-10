@@ -191,21 +191,27 @@ input[type="range"]::-webkit-slider-thumb{
 /* right part */
  .right .middle{
  	width: 100%;
-    display: flex;
+    	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
 .right .middle button{
 	border: none;
-	height: 60px;
-	width: 60px;
+	height: 55px;
+	width: 55px;
 	border-radius: 50%;	
-    display: flex;
+    	display: flex;
 	align-items: center;
 	justify-content: center;
 	cursor: pointer;
 	outline: none;
+	color: #fff;
+}
+
+.right .middle button.play_button{
+	height: 75px;
+	width: 75px;
 }
 
 .right_blue{
@@ -220,23 +226,14 @@ input[type="range"]::-webkit-slider-thumb{
              -5px -5px 8px #ff79e1;
 }
 
-.repeat{
-	color: white;
-	background: linear-gradient(145deg, #e7aae462, #885778);
-	box-shadow:  5px 5px 8px #4887c4,
-             -5px -5px 8px #62b7ff;
-}
-
-.shuffle{
-	color: white;
-	background: linear-gradient(145deg, #e7aae462, #885778);
-	box-shadow:  5px 5px 8px #4887c4,
-             -5px -5px 8px #62b7ff;
-}
-
 .selected{
-	color: white;
-	background: linear-gradient(145deg, #730cd49d, #3619da88);
+	background: linear-gradient(145deg, #cf5fb0, #f670d2);
+	box-shadow:  5px 5px 8px #c459a7,
+             -5px -5px 8px #ff79e1;
+}
+
+.selected:hover{
+	background: linear-gradient(145deg, #4d8fcf, #5baaf6);
 	box-shadow:  5px 5px 8px #4887c4,
              -5px -5px 8px #62b7ff;
 }
@@ -344,20 +341,30 @@ input[type="range"]::-webkit-slider-thumb{
 	margin: 0 50px;
 }
 
-.documentation_body h2 ol a:nth-child(1), .documentation_body h2 ol a:nth-child(6), .documentation_body h2 ol a:nth-child(11), .documentation_body h2 ol a:nth-child(16){
+.documentation_body h2 ol a:nth-child(1), .documentation_body h2 ol a:nth-child(6), .documentation_body h2 ol a:nth-child(11), .documentation_body h2 ol a:nth-child(16), .documentation_body h2 ol a:nth-child(21), .documentation_body h2 ol a:nth-child(26), .documentation_body h2 ol a:nth-child(31), .documentation_body h2 ol a:nth-child(36), .documentation_body h2 ol a:nth-child(41), .documentation_body h2 ol a:nth-child(46), .documentation_body h2 ol a:nth-child(51), .documentation_body h2 ol a:nth-child(56), .documentation_body h2 ol a:nth-child(61), .documentation_body h2 ol a:nth-child(66), .documentation_body h2 ol a:nth-child(71), .documentation_body h2 ol a:nth-child(76), .documentation_body h2 ol a:nth-child(81), .documentation_body h2 ol a:nth-child(86), .documentation_body h2 ol a:nth-child(91), .documentation_body h2 ol a:nth-child(96), .documentation_body h2 ol a:nth-child(101), .documentation_body h2 ol a:nth-child(106), .documentation_body h2 ol a:nth-child(111), .documentation_body h2 ol a:nth-child(116){
 	color: rgb(127, 35, 240);
 }
-.documentation_body h2 ol a:nth-child(2), .documentation_body h2 ol a:nth-child(7), .documentation_body h2 ol a:nth-child(12), .documentation_body h2 ol a:nth-child(17){
+.documentation_body h2 ol a:nth-child(2), .documentation_body h2 ol a:nth-child(7), .documentation_body h2 ol a:nth-child(12), .documentation_body h2 ol a:nth-child(17), .documentation_body h2 ol a:nth-child(22), .documentation_body h2 ol a:nth-child(27), .documentation_body h2 ol a:nth-child(32), .documentation_body h2 ol a:nth-child(37), .documentation_body h2 ol a:nth-child(42), .documentation_body h2 ol a:nth-child(47), .documentation_body h2 ol a:nth-child(52), .documentation_body h2 ol a:nth-child(57), .documentation_body h2 ol a:nth-child(62), .documentation_body h2 ol a:nth-child(67), .documentation_body h2 ol a:nth-child(72), .documentation_body h2 ol a:nth-child(77), .documentation_body h2 ol a:nth-child(82), .documentation_body h2 ol a:nth-child(87), .documentation_body h2 ol a:nth-child(92), .documentation_body h2 ol a:nth-child(97), .documentation_body h2 ol a:nth-child(102), .documentation_body h2 ol a:nth-child(107), .documentation_body h2 ol a:nth-child(112), .documentation_body h2 ol a:nth-child(117){
 	color: rgb(131, 224, 255);
 }
-.documentation_body h2 ol a:nth-child(3), .documentation_body h2 ol a:nth-child(8), .documentation_body h2 ol a:nth-child(13), .documentation_body h2 ol a:nth-child(18){
+.documentation_body h2 ol a:nth-child(3), .documentation_body h2 ol a:nth-child(8), .documentation_body h2 ol a:nth-child(13), .documentation_body h2 ol a:nth-child(18), .documentation_body h2 ol a:nth-child(23), .documentation_body h2 ol a:nth-child(28), .documentation_body h2 ol a:nth-child(33), .documentation_body h2 ol a:nth-child(38), .documentation_body h2 ol a:nth-child(43), .documentation_body h2 ol a:nth-child(48), .documentation_body h2 ol a:nth-child(53), .documentation_body h2 ol a:nth-child(58), .documentation_body h2 ol a:nth-child(63), .documentation_body h2 ol a:nth-child(68), .documentation_body h2 ol a:nth-child(73), .documentation_body h2 ol a:nth-child(78), .documentation_body h2 ol a:nth-child(83), .documentation_body h2 ol a:nth-child(88), .documentation_body h2 ol a:nth-child(93), .documentation_body h2 ol a:nth-child(98), .documentation_body h2 ol a:nth-child(103), .documentation_body h2 ol a:nth-child(108), .documentation_body h2 ol a:nth-child(113), .documentation_body h2 ol a:nth-child(118){
 	color: rgb(23, 92, 219);
 }
-.documentation_body h2 ol a:nth-child(4), .documentation_body h2 ol a:nth-child(9), .documentation_body h2 ol a:nth-child(14), .documentation_body h2 ol a:nth-child(19){
+.documentation_body h2 ol a:nth-child(4), .documentation_body h2 ol a:nth-child(9), .documentation_body h2 ol a:nth-child(14), .documentation_body h2 ol a:nth-child(19), .documentation_body h2 ol a:nth-child(24), .documentation_body h2 ol a:nth-child(29), .documentation_body h2 ol a:nth-child(34), .documentation_body h2 ol a:nth-child(39), .documentation_body h2 ol a:nth-child(44), .documentation_body h2 ol a:nth-child(49), .documentation_body h2 ol a:nth-child(54), .documentation_body h2 ol a:nth-child(59), .documentation_body h2 ol a:nth-child(64), .documentation_body h2 ol a:nth-child(69), .documentation_body h2 ol a:nth-child(74), .documentation_body h2 ol a:nth-child(79), .documentation_body h2 ol a:nth-child(84), .documentation_body h2 ol a:nth-child(89), .documentation_body h2 ol a:nth-child(94), .documentation_body h2 ol a:nth-child(99), .documentation_body h2 ol a:nth-child(104), .documentation_body h2 ol a:nth-child(109), .documentation_body h2 ol a:nth-child(114), .documentation_body h2 ol a:nth-child(119){
 	color: rgb(254, 228, 64);
 }
-.documentation_body h2 ol a:nth-child(5), .documentation_body h2 ol a:nth-child(10), .documentation_body h2 ol a:nth-child(15), .documentation_body h2 ol a:nth-child(20){
+.documentation_body h2 ol a:nth-child(5), .documentation_body h2 ol a:nth-child(10), .documentation_body h2 ol a:nth-child(15), .documentation_body h2 ol a:nth-child(20), .documentation_body h2 ol a:nth-child(25), .documentation_body h2 ol a:nth-child(30), .documentation_body h2 ol a:nth-child(35), .documentation_body h2 ol a:nth-child(40), .documentation_body h2 ol a:nth-child(45), .documentation_body h2 ol a:nth-child(50), .documentation_body h2 ol a:nth-child(55), .documentation_body h2 ol a:nth-child(60), .documentation_body h2 ol a:nth-child(65), .documentation_body h2 ol a:nth-child(70), .documentation_body h2 ol a:nth-child(75), .documentation_body h2 ol a:nth-child(80), .documentation_body h2 ol a:nth-child(85), .documentation_body h2 ol a:nth-child(90), .documentation_body h2 ol a:nth-child(95), .documentation_body h2 ol a:nth-child(100), .documentation_body h2 ol a:nth-child(105), .documentation_body h2 ol a:nth-child(110), .documentation_body h2 ol a:nth-child(115), .documentation_body h2 ol a:nth-child(120){
 	color: rgb(0, 245, 212);
+}
+
+a {
+	text-decoration: none;
+	
+}
+
+a:hover{
+	text-decoration: underline;
+	cursor: pointer;
 }
 
 @media screen and (max-width: 600px) and (min-width: 220px){
@@ -406,9 +413,6 @@ input[type="range"]::-webkit-slider-thumb{
 		position: absolute;
 		top: 20%;
    	}
-   	.right #auto{
-		top: 5%;
-	}
 	.right .duration{
 		bottom: 5%;
 	}
@@ -468,9 +472,6 @@ input[type="range"]::-webkit-slider-thumb{
 		position: relative;
 		top: 0;
     }
-   	.right #auto{
-		top: -7%;
-	}
 	.right .duration{
 		bottom: 11%;
 		left: 50%;
@@ -495,15 +496,4 @@ input[type="range"]::-webkit-slider-thumb{
 	.documentation_body h2 ol{
 		margin: 0 35px;
 	}
-}
-
-
-a {
-	text-decoration: none;
-	
-}
-
-a:hover{
-	text-decoration: underline;
-	cursor: pointer;
 }

@@ -564,18 +564,6 @@ a:hover{
 	}
 }
 
-@media screen and (max-width: 320px){
-	body{
-		display: none;
-	}
-}
-
-@media screen and (max-height: 280px){
-	body{
-		display: none;
-	}
-}
-
 @media screen and (max-height: 500px) and (orientation: landscape){
 	.image{
 		top: 15%;

@@ -1,4 +1,4 @@
-# Music Player
+# Tarana
 
 
-Live Demo [Tarana](https://SinhaAnishKumar.github.io/tarana)
+Live Demo [Here](https://SinhaAnishKumar.github.io/tarana)

@@ -179,10 +179,8 @@ input[type="range"]::-webkit-slider-thumb{
 .right #artist{
 	position: absolute;
 	top: 30%;
-	left: 50%;		
 	width: 100%;
 	display: inline;
-	transform: translateX(-50%);
 	text-transform: capitalize;
 	color: #fff;
 	font-size: 18px;
@@ -294,8 +292,8 @@ input[type="range"]::-webkit-slider-thumb{
 	border: none;
 	background: transparent;
 	cursor: pointer;
-    text-decoration: none;
-    box-sizing: border-box;
+    	text-decoration: none;
+    	box-sizing: border-box;
 }
 
 .documentation_page{
@@ -367,7 +365,126 @@ a:hover{
 	cursor: pointer;
 }
 
-@media screen and (max-width: 600px) and (min-width: 220px){
+@media screen and (max-width: 1100px) {
+	.right .middle button{
+		height: 50px;
+		width: 50px;
+	}
+	
+	.right .middle button.play_button{
+		height: 65px;
+		width: 65px;
+	}
+
+	.right #artist{
+		top: 35%;
+	}
+}
+
+@media screen and (max-width: 1050px) {
+	.image{
+		top: 22%;
+		height: 280px;
+	}	
+}
+
+@media screen and (max-width: 1000px) {
+	.image{
+		top: 25%;
+		height: 250px;
+	}
+
+	.right .middle button{
+		height: 45px;
+		width: 45px;
+	}
+	
+	.right .middle button.play_button{
+		height: 60px;
+		width: 60px;
+	}
+
+	.right #title{
+		top: 22%;
+		font-size: 30px;
+	}
+
+	.documentation_body h1{
+		font-size: 2.5em;
+	}
+	
+	.documentation_body h2{
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 925px) {
+	.image{
+		top: 27%;
+		height: 220px;
+		border-radius: 10px;
+	}
+
+	.left .image img{
+		border-radius: 10px;
+	}
+
+	.right .middle button{
+		height: 45px;
+		width: 45px;
+	}
+	
+	.right .middle button.play_button{
+		height: 60px;
+		width: 60px;
+	}
+
+	.right #title{
+		top: 28%;
+		font-size: 25px;
+	}
+
+	.right #artist{
+		top: 38%;
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.documentation_body h1{
+		font-size: 2.25em;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.image{
+		top: 28%;
+		height: 200px;
+		border-radius: 10px;
+	}
+
+	.left .image img{
+		border-radius: 10px;
+	}
+
+	.right .middle button{
+		height: 40px;
+		width: 40px;
+	}
+	
+	.right .middle button.play_button{
+		height: 55px;
+		width: 55px;
+	}
+}
+
+@media screen and (max-width: 700px){
+	.right{
+		left: -2%;
+	}
+}
+
+@media screen and (max-width: 600px){
 	.right, .left{
 		position: absolute;
 		height: 50%;
@@ -394,7 +511,7 @@ a:hover{
 		top: 50%;
 	}
 	.right .show_song_no{
-		top: 55%;
+		top: -20%;
 		left: 45%;
 	}
 	.right .show_song_no p:nth-child(2){
@@ -402,16 +519,17 @@ a:hover{
 	}
 	.right #title{
 		position: relative;
-		top: -60%;
-		font-size: 30px;
+		top: -45%;
+		font-size: 25px;
 	}
 	.right #artist{
-		top: 0;
+		top: 20%;
+		font-size: 16px;
 	}
 	/* right part */
 	.right .middle{
 		position: absolute;
-		top: 20%;
+		top: 45%;
    	}
 	.right .duration{
 		bottom: 5%;
@@ -419,14 +537,11 @@ a:hover{
 	.documentation{
 		right: 15%;
 	}
-	.documentation_page{
+	/* .documentation_page{
 		height: 98.28%;
-	}
+	} */
 	.documentation_body h1{
 		font-size: 2em;
-	}
-	.documentation_body h2{
-		font-size: 1em;
 	}
 	.documentation_body h2 ol{
 		margin: 0 30px;
@@ -437,10 +552,33 @@ a:hover{
 	}
 }
 
-@media screen and (max-width: 230px) and (min-width: 150px){
+@media screen and (max-width: 380px){
 	.right .middle button{
-		height: 25px;
-		width: 25px;
+		height: 35px;
+		width: 35px;
+	}
+	
+	.right .middle button.play_button{
+		height: 50px;
+		width: 50px;
+	}
+}
+
+@media screen and (max-width: 320px){
+	body{
+		display: none;
+	}
+}
+
+@media screen and (max-height: 280px){
+	body{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 600px) and (max-height: 500px){
+	body{
+		display: none;
 	}
 }
 
@@ -480,18 +618,15 @@ a:hover{
 		top: 10%;
 		right: 9%;
 	}
-	.documentation_page{
+	/* .documentation_page{
 		height: 108%;
-	}
+	} */
 	.documentation_body{
 		height: 82.5%;
 		top: 12.5%;
 	}
 	.documentation_body h1{
 		font-size: 2em;
-	}
-	.documentation_body h2{
-		font-size: 1em;
 	}
 	.documentation_body h2 ol{
 		margin: 0 35px;

@@ -198,8 +198,8 @@ input[type="range"]::-webkit-slider-thumb{
 
 .right .middle button{
 	border: none;
-	height: 55px;
-	width: 55px;
+	height: 60px;
+	width: 60px;
 	border-radius: 50%;	
     	display: flex;
 	align-items: center;

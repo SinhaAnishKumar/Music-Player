@@ -576,12 +576,6 @@ a:hover{
 	}
 }
 
-@media screen and (max-width: 600px) and (max-height: 500px){
-	body{
-		display: none;
-	}
-}
-
 @media screen and (max-height: 500px) and (orientation: landscape){
 	.image{
 		top: 15%;

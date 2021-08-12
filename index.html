@@ -52,7 +52,7 @@
             <div class="volume">
                 <p id="volume_show">40</p>
                 <i class="fa fa-volume-up" aria-hidden="true" id="volume_icon" title="Mute"></i>
-                <input type="range" min="0" max="100" value="40" onchange="volume_change()" id="volume" title="Change volume">
+                <input type="range" min="0" max="100" value="40" onchange="volume_change()" id="volume">
             </div>
         </div>
         <!--- right part --->
@@ -83,7 +83,7 @@
             <!--- song duration part --->
             <div class="duration">
                 <p id="passed_duration">0 : 00</p>
-                <input type="range" min="0" max="100" value="0" id="duration_slider" oninput="change_duration();" title="Change song current duration">
+                <input type="range" min="0" max="100" value="0" id="duration_slider" oninput="change_duration();">
                 <p id="full_duration">0 : 00</p>
             </div>
         </div>

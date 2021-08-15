@@ -339,28 +339,28 @@ input[type="range"]::-webkit-slider-thumb{
 	margin: 0 50px;
 }
 
-.documentation_body h2 ol a:nth-child(1), .documentation_body h2 ol a:nth-child(6), .documentation_body h2 ol a:nth-child(11), .documentation_body h2 ol a:nth-child(16), .documentation_body h2 ol a:nth-child(21), .documentation_body h2 ol a:nth-child(26), .documentation_body h2 ol a:nth-child(31), .documentation_body h2 ol a:nth-child(36), .documentation_body h2 ol a:nth-child(41), .documentation_body h2 ol a:nth-child(46), .documentation_body h2 ol a:nth-child(51), .documentation_body h2 ol a:nth-child(56), .documentation_body h2 ol a:nth-child(61), .documentation_body h2 ol a:nth-child(66), .documentation_body h2 ol a:nth-child(71), .documentation_body h2 ol a:nth-child(76), .documentation_body h2 ol a:nth-child(81), .documentation_body h2 ol a:nth-child(86), .documentation_body h2 ol a:nth-child(91), .documentation_body h2 ol a:nth-child(96), .documentation_body h2 ol a:nth-child(101), .documentation_body h2 ol a:nth-child(106), .documentation_body h2 ol a:nth-child(111), .documentation_body h2 ol a:nth-child(116){
+#list a:nth-child(1), #list a:nth-child(6), #list a:nth-child(11), #list a:nth-child(16), #list a:nth-child(21), #list a:nth-child(26), #list a:nth-child(31), #list a:nth-child(36), #list a:nth-child(41), #list a:nth-child(46), #list a:nth-child(51), #list a:nth-child(56), #list a:nth-child(61), #list a:nth-child(66), #list a:nth-child(71), #list a:nth-child(76), #list a:nth-child(81), #list a:nth-child(86), #list a:nth-child(91), #list a:nth-child(96), #list a:nth-child(101), #list a:nth-child(106), #list a:nth-child(111), #list a:nth-child(116){
 	color: rgb(127, 35, 240);
 }
-.documentation_body h2 ol a:nth-child(2), .documentation_body h2 ol a:nth-child(7), .documentation_body h2 ol a:nth-child(12), .documentation_body h2 ol a:nth-child(17), .documentation_body h2 ol a:nth-child(22), .documentation_body h2 ol a:nth-child(27), .documentation_body h2 ol a:nth-child(32), .documentation_body h2 ol a:nth-child(37), .documentation_body h2 ol a:nth-child(42), .documentation_body h2 ol a:nth-child(47), .documentation_body h2 ol a:nth-child(52), .documentation_body h2 ol a:nth-child(57), .documentation_body h2 ol a:nth-child(62), .documentation_body h2 ol a:nth-child(67), .documentation_body h2 ol a:nth-child(72), .documentation_body h2 ol a:nth-child(77), .documentation_body h2 ol a:nth-child(82), .documentation_body h2 ol a:nth-child(87), .documentation_body h2 ol a:nth-child(92), .documentation_body h2 ol a:nth-child(97), .documentation_body h2 ol a:nth-child(102), .documentation_body h2 ol a:nth-child(107), .documentation_body h2 ol a:nth-child(112), .documentation_body h2 ol a:nth-child(117){
+#list a:nth-child(2), #list a:nth-child(7), #list a:nth-child(12), #list a:nth-child(17), #list a:nth-child(22), #list a:nth-child(27), #list a:nth-child(32), #list a:nth-child(37), #list a:nth-child(42), #list a:nth-child(47), #list a:nth-child(52), #list a:nth-child(57), #list a:nth-child(62), #list a:nth-child(67), #list a:nth-child(72), #list a:nth-child(77), #list a:nth-child(82), #list a:nth-child(87), #list a:nth-child(92), #list a:nth-child(97), #list a:nth-child(102), #list a:nth-child(107), #list a:nth-child(112), #list a:nth-child(117){
 	color: rgb(131, 224, 255);
 }
-.documentation_body h2 ol a:nth-child(3), .documentation_body h2 ol a:nth-child(8), .documentation_body h2 ol a:nth-child(13), .documentation_body h2 ol a:nth-child(18), .documentation_body h2 ol a:nth-child(23), .documentation_body h2 ol a:nth-child(28), .documentation_body h2 ol a:nth-child(33), .documentation_body h2 ol a:nth-child(38), .documentation_body h2 ol a:nth-child(43), .documentation_body h2 ol a:nth-child(48), .documentation_body h2 ol a:nth-child(53), .documentation_body h2 ol a:nth-child(58), .documentation_body h2 ol a:nth-child(63), .documentation_body h2 ol a:nth-child(68), .documentation_body h2 ol a:nth-child(73), .documentation_body h2 ol a:nth-child(78), .documentation_body h2 ol a:nth-child(83), .documentation_body h2 ol a:nth-child(88), .documentation_body h2 ol a:nth-child(93), .documentation_body h2 ol a:nth-child(98), .documentation_body h2 ol a:nth-child(103), .documentation_body h2 ol a:nth-child(108), .documentation_body h2 ol a:nth-child(113), .documentation_body h2 ol a:nth-child(118){
+#list a:nth-child(3), #list a:nth-child(8), #list a:nth-child(13), #list a:nth-child(18), #list a:nth-child(23), #list a:nth-child(28), #list a:nth-child(33), #list a:nth-child(38), #list a:nth-child(43), #list a:nth-child(48), #list a:nth-child(53), #list a:nth-child(58), #list a:nth-child(63), #list a:nth-child(68), #list a:nth-child(73), #list a:nth-child(78), #list a:nth-child(83), #list a:nth-child(88), #list a:nth-child(93), #list a:nth-child(98), #list a:nth-child(103), #list a:nth-child(108), #list a:nth-child(113), #list a:nth-child(118){
 	color: rgb(23, 92, 219);
 }
-.documentation_body h2 ol a:nth-child(4), .documentation_body h2 ol a:nth-child(9), .documentation_body h2 ol a:nth-child(14), .documentation_body h2 ol a:nth-child(19), .documentation_body h2 ol a:nth-child(24), .documentation_body h2 ol a:nth-child(29), .documentation_body h2 ol a:nth-child(34), .documentation_body h2 ol a:nth-child(39), .documentation_body h2 ol a:nth-child(44), .documentation_body h2 ol a:nth-child(49), .documentation_body h2 ol a:nth-child(54), .documentation_body h2 ol a:nth-child(59), .documentation_body h2 ol a:nth-child(64), .documentation_body h2 ol a:nth-child(69), .documentation_body h2 ol a:nth-child(74), .documentation_body h2 ol a:nth-child(79), .documentation_body h2 ol a:nth-child(84), .documentation_body h2 ol a:nth-child(89), .documentation_body h2 ol a:nth-child(94), .documentation_body h2 ol a:nth-child(99), .documentation_body h2 ol a:nth-child(104), .documentation_body h2 ol a:nth-child(109), .documentation_body h2 ol a:nth-child(114), .documentation_body h2 ol a:nth-child(119){
+#list a:nth-child(4), #list a:nth-child(9), #list a:nth-child(14), #list a:nth-child(19), #list a:nth-child(24), #list a:nth-child(29), #list a:nth-child(34), #list a:nth-child(39), #list a:nth-child(44), #list a:nth-child(49), #list a:nth-child(54), #list a:nth-child(59), #list a:nth-child(64), #list a:nth-child(69), #list a:nth-child(74), #list a:nth-child(79), #list a:nth-child(84), #list a:nth-child(89), #list a:nth-child(94), #list a:nth-child(99), #list a:nth-child(104), #list a:nth-child(109), #list a:nth-child(114), #list a:nth-child(119){
 	color: rgb(254, 228, 64);
 }
-.documentation_body h2 ol a:nth-child(5), .documentation_body h2 ol a:nth-child(10), .documentation_body h2 ol a:nth-child(15), .documentation_body h2 ol a:nth-child(20), .documentation_body h2 ol a:nth-child(25), .documentation_body h2 ol a:nth-child(30), .documentation_body h2 ol a:nth-child(35), .documentation_body h2 ol a:nth-child(40), .documentation_body h2 ol a:nth-child(45), .documentation_body h2 ol a:nth-child(50), .documentation_body h2 ol a:nth-child(55), .documentation_body h2 ol a:nth-child(60), .documentation_body h2 ol a:nth-child(65), .documentation_body h2 ol a:nth-child(70), .documentation_body h2 ol a:nth-child(75), .documentation_body h2 ol a:nth-child(80), .documentation_body h2 ol a:nth-child(85), .documentation_body h2 ol a:nth-child(90), .documentation_body h2 ol a:nth-child(95), .documentation_body h2 ol a:nth-child(100), .documentation_body h2 ol a:nth-child(105), .documentation_body h2 ol a:nth-child(110), .documentation_body h2 ol a:nth-child(115), .documentation_body h2 ol a:nth-child(120){
+#list a:nth-child(5), #list a:nth-child(10), #list a:nth-child(15), #list a:nth-child(20), #list a:nth-child(25), #list a:nth-child(30), #list a:nth-child(35), #list a:nth-child(40), #list a:nth-child(45), #list a:nth-child(50), #list a:nth-child(55), #list a:nth-child(60), #list a:nth-child(65), #list a:nth-child(70), #list a:nth-child(75), #list a:nth-child(80), #list a:nth-child(85), #list a:nth-child(90), #list a:nth-child(95), #list a:nth-child(100), #list a:nth-child(105), #list a:nth-child(110), #list a:nth-child(115), #list a:nth-child(120){
 	color: rgb(0, 245, 212);
 }
 
-a {
+#list a {
 	text-decoration: none;
 	
 }
 
-a:hover{
+#list a:hover{
 	text-decoration: underline;
 	cursor: pointer;
 }
@@ -537,9 +537,6 @@ a:hover{
 	.documentation{
 		right: 15%;
 	}
-	/* .documentation_page{
-		height: 98.28%;
-	} */
 	.documentation_body h1{
 		font-size: 2em;
 	}
@@ -600,9 +597,6 @@ a:hover{
 		top: 10%;
 		right: 9%;
 	}
-	/* .documentation_page{
-		height: 108%;
-	} */
 	.documentation_body{
 		height: 82.5%;
 		top: 12.5%;
